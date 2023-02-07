@@ -27,7 +27,7 @@ class Persona{
     get telefono(){
         return this._telefono;
     }
-    set edad(n){
+    set telefono(n){
         this._telefono = n;
     }
 
