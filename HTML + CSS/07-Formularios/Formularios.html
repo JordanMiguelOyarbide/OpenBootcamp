@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/07-Formularios/CSS/style.css" />
+    <title>FORM</title>
+  </head>
+  <body>
+   
+    <div class="container">
+      <h3>Sign Up!</h3>
+      <div id="button">
+        <button class="google-btn">
+          <picture><img src="/07-Formularios/CSS/Multimedia/google.png" alt="logo-google"></picture>
+          <span>Register with Google</span>
+        </button>
+        <button class="twitter-btn">
+          <picture>
+            <img src="/07-Formularios/CSS/Multimedia/twitter.png" alt="logo-twitter">
+          </picture>
+        </button>
+      </div>
+     
+      <div class="separator">
+        <hr />
+        <span>OR</span>
+        <hr />
+      </div>
+
+      <form action="" method="get">
+        <div class="section">
+          <label class="labelData" for="name">
+            <span>Name</span>
+            <input id="name" name="name" />
+          </label>
+          <label class="labelData"for="username">
+            <span>UserName</span>
+            <input id="username" name="username" />
+          </label>
+        </div>
+        <div>
+          <label for="email">
+            <span>Email</span>
+            <input id="email" name="email" />
+          </label>
+        </div>
+        <div>
+          <label for="password">
+            <span>Password</span>
+            <input id="password" name="password" type="password" placeholder="6+ Characteres"/>
+          </label>
+        </div>
+        <div class="foot">
+          <label for="check-box">
+            <input type="checkbox" class="check"/>
+            <span class="text-check"
+              >Creating an account you´re okey with our Terms of Service.
+              Privacy Politicy, and our default Notification setting</span
+            >
+          </label>
+        </div>
+        <div class="create">
+          <button class="create-account">Create Account</button>
+        </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
