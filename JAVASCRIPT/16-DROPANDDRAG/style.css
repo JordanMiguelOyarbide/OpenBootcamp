@@ -1,0 +1,25 @@
+.sesion {
+    background-color: grey;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: aliceblue;
+    padding: 1.5rem;
+}
+
+.papelera {
+    background-color: grey;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eliminar {
+    width: 3rem;
+    height: 3rem;
+    
+}
